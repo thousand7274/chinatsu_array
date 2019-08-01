@@ -31,3 +31,15 @@ let color =[
 }];
 console.log(color[0].blue[1]);
 
+// 四次元配列
+let fruit = [
+  {
+    apple:'りんご',
+    orange:{
+      grape:['ぶどう']
+    }
+  }
+]
+console.log(fruit[0].orange.grape[0]);
+
+
