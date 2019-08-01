@@ -42,4 +42,28 @@ let fruit = [
 ]
 console.log(fruit[0].orange.grape[0]);
 
+// 五次元配列
+let drink = [
+  {
+    tea:'お茶',
+    juice:'ジュース',
+    coffee:{
+      tullys:'タリーズ',
+      doutor:'ドトール',
+      starbucks:{
+        espresso:'エスプレッソ',
+        cafemist:'カフェミスト',
+        frappuccino:{
+          short:'ショート',
+          tall:'トール',
+          grande:'グランデ',
+          venti:'ヴェンティ'
 
+        }
+      }
+    }
+  }
+]
+
+console.log(drink[0].coffee.starbucks.frappuccino.grande);
+console.log(drink);
